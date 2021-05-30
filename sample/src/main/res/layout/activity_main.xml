@@ -23,37 +23,37 @@
             app:flRowSpacing="8dp">
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="SUN" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="MON" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="TUE" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="WED" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="THU" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="FRI" />
 
             <TextView
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="SAT" />
 
