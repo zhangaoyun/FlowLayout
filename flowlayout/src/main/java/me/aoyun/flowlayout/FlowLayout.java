@@ -86,10 +86,16 @@ public class FlowLayout extends ViewGroup {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
+
+        mHorizontalSpacingForRow.clear();
+        mHeightForRow.clear();
+        mWidthForRow.clear();
+        mChildNumForRow.clear();
 
         int measuredHeight = 0;
         int measuredWidth = 0;
