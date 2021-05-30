@@ -1,4 +1,4 @@
-package me.aoyun.flowlayout;
+package me.aoyun.flowlayout.sample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
