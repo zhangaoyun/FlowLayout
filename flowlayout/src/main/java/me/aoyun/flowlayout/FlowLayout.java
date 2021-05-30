@@ -150,7 +150,7 @@ public class FlowLayout extends ViewGroup {
             } else {
                 childNumInRow++;
                 rowWidth += childWidth + tmpSpacing;
-                rowTotalChildWidth = childWidth;
+                rowTotalChildWidth += childWidth;
                 maxChildHeightInRow = Math.max(maxChildHeightInRow, childHeight);
             }
         }
